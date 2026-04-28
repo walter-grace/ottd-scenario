@@ -1,0 +1,12 @@
+export const metadata = {
+  title: "OpenTTD Scenario from Google Maps",
+  description: "Generate OpenTTD heightmaps + town JSON from any Google Maps URL — runs entirely in your browser.",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body style={{ margin: 0, fontFamily: "system-ui, sans-serif", background: "#fafafa" }}>{children}</body>
+    </html>
+  );
+}
