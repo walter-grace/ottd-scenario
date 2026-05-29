@@ -4,8 +4,6 @@ Generate real-world heightmaps and town data for [OpenTTD](https://www.openttd.o
 
 **Live demo:** https://scenario-deploy-qiynublnc-waltgraces-projects.vercel.app
 
-![screenshot](docs/screenshot.png)
-
 ## What it does
 
 Paste a Google Maps URL like `https://www.google.com/maps/@34.0522,-118.2437,11z` and the page:
@@ -31,8 +29,8 @@ It also recommends an OpenTTD **climate** (Temperate / Sub-Tropical / Sub-Arctic
 ## Local development
 
 ```bash
-git clone <this-repo>
-cd scenario-deploy
+git clone https://github.com/walter-grace/ottd-scenario
+cd ottd-scenario
 npm install
 npm run dev
 # open http://localhost:3002
@@ -76,7 +74,7 @@ app/
 2. Open OpenTTD → "Play Heightmap" → select your file
 3. Set the climate the page recommends (e.g. **Sub-Tropical** for Phoenix)
 4. Set "Heightmap height (peak)" to the recommended value (e.g. 25 for mountainous regions)
-5. The `*_towns.json` works with the [DLF Town Loader](https://github.com/dlf-flywheel/dlf-openttd) game script if you want pre-named real-world towns
+5. The `*_towns.json` works with the [Nutz Town Loader](https://github.com/walter-grace/agent-openttd-arena) GameScript if you want pre-named real-world towns (`build_scenario.py` in that repo auto-generates one for you)
 
 ## Limitations
 
