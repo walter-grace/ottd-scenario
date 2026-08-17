@@ -514,10 +514,6 @@ export default function Page() {
               </details>
             </div>
           )}
-
-          <footer style={{ marginTop: 80, textAlign: "center", color: "#6b7280", fontSize: 13 }}>
-            Built on AWS Mapzen terrain tiles + OpenStreetMap. Privacy-first: nothing leaves your browser.
-          </footer>
         </div>
       </main>
     </>
